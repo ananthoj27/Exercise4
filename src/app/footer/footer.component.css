@@ -1,9 +1,10 @@
 footer{
-  font-size: 1.2em;
+  font-size: 2em;
   font-style: italic;
   font-weight: bolder;
   border-top: #78909c solid;
-  color: midnightblue;
+  color: firebrick;
+  text-align: center;
 }
 
 footer .name{

@@ -1,5 +1,20 @@
+
 <h1> {{header}}</h1>
 
 
+<main>
+  <h2> {{label}} </h2>
+
+
+  <div class="box1">
+    <img [src]="image1" alt="dog"> <br>
+  </div>
+
+  <p>
+    <button (click)="dog()">Dog</button> &nbsp;
+    <button (click)="cat()">Cat</button> &nbsp;
+    <button (click)="rabbit()">Rabbit</button>
+  </p>
+</main>
 
 <app-footer></app-footer>
