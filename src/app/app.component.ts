@@ -25,7 +25,7 @@ export class AppComponent {
     cat() {
       this.image1 = 'assets/images/cat.PNG';
       this.alt = 'cat_img';
-      this.label = 'Cat'
+      this.label = 'Cat';
     }
 
     rabbit() {
